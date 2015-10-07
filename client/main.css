@@ -220,3 +220,22 @@ ul.noRadius>li>a {
 .tabs .indicator{
   background-color: #4dd0e1 !important;
 }
+/*Colores nuevos para SAI*/
+.btn{
+    background-color: #01579b !important;
+}
+
+h1,h2,h3,h4,h5,h6{
+  color: #512da8 !important;
+}
+
+.waves-effect.waves-sai .waves-ripple {
+     /* The alpha value allows the text and background color
+     of the button to still show through. */
+      background-color: #536dfe;
+}
+
+.collapsible-header{
+  margin:0px !important;
+  padding:0px 0px 0px 30px !important;
+}
