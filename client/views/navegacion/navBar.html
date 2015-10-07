@@ -1,0 +1,15 @@
+<template name="navBar">
+	<div class="cyan darken-2">
+		<div class="container">
+			<nav class="cyan darken-2 top-nav">
+				<div class="nav-wrapper">
+					<a href="{{pathFor route='home'}}" class="brand-logo left"><i id="logoQuarepo" class="hide-on-small-only mdi-communication-dialpad left "></i>Sistema Administración Interno</a>
+					<a href="#" data-activates="mobileNavBar" id="btnMenuPrincipal" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+					<!--SIDENAV-->
+					{{> sideNav}}
+					<!--SIDENAV-->
+				</div>
+			</nav>
+		</div>
+	</div>
+</template>

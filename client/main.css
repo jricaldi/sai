@@ -1,0 +1,222 @@
+body {
+  display: flex;
+  min-height: 60vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+header, main, footer {
+    padding-left: 240px;
+  }
+
+@media only screen and (max-width : 992px) {
+  header, main, footer {
+    padding-left: 0;
+  }
+}
+
+@media only screen and (min-width: 993px){
+  .container {
+      width: 85%;
+  }
+}
+
+.page-title {
+  /*line-height: 122px;*/
+  font-size: 48px;
+}
+
+.bold > a {
+  font-weight: bold;
+}
+
+nav.top-nav{
+  box-shadow: none;
+}
+
+.grande{
+  font-size: 2rem;
+}
+
+nav ul#mobileNavBar.side-nav li.bold:hover{
+  background-color: rgba(0, 0, 0, 0.05) !important;
+}
+
+li.no-padding{
+  background-color: transparent !important;
+}
+
+.side-nav .collapsible-body li.active, .side-nav.fixed .collapsible-body li.active{
+  background-color: #00bcd4;
+}
+
+.side-nav li:hover, .side-nav li.active {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+i#logoQuarepo.left {
+  margin-right: 0 !important;
+}
+
+.header{
+  font-weight: 300;
+}
+
+.sinMargenTB{
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.sinMargenLR{
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.mt400{
+  margin-top: 100px;
+}
+
+.mt40{
+  margin-top: 40px;
+}
+
+.mt20{
+  margin-top: 20px;
+}
+.mb15{
+  margin-bottom: 15px;
+}
+.mb20{
+  margin-bottom: 20px;
+}
+
+.hide{
+  display: none;
+}
+
+.mb50{
+  margin-bottom: 50px;
+}
+
+.pb70{
+  padding-bottom: 70px !important;
+}
+
+.transitioner {
+  overflow: visible;
+}
+
+.dropdown-button > i.right {
+  margin-left: 0px;
+}
+
+.nav-wrapper ul li>a.combo{
+  padding: 0 0 0 10px;
+}
+
+.truncate {
+  white-space: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.btn{
+  text-transform: none !important;
+}
+
+.dropdown-content{
+  min-width: 140px !important;
+}
+
+.input-field{
+  margin-top : 0px;
+}
+
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url("css/font/MaterialIcons-Regular.eot"); /* For IE6-8 */
+  src: local('Material Icons'),
+  local('MaterialIcons-Regular'),
+  url("font/MaterialIcons-Regular.woff2") format('woff2'),
+  url("font/MaterialIcons-Regular.woff") format('woff'),
+  url("font/MaterialIcons-Regular.ttf") format("truetype");
+}
+
+.material-icons {
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  word-wrap: normal;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+ul.noRadius>li>a {
+  border-radius: 0px;
+  width: 100px;
+  right: 30px;
+}
+
+.mensajeBox{
+  bottom: 0px;
+  left: 0px;
+  padding-bottom: 20px;
+  background-color: whitesmoke;
+  width: 100%;
+  height: 66px;
+  padding-left: 20px;
+  border-top: 1px solid teal;
+  z-index: 990;
+}
+
+.perfilButton{
+  bottom: 6px;
+  right: 25px;
+  z-index: 991;
+}
+
+.esconder{
+  visibility: hidden;
+}
+
+.borderError{
+  border-top: 1px solid red;
+}
+
+.selectAlign{
+  margin-top:-17px;
+}
+
+.letraCapital{
+  text-transform: capitalize;
+}
+.pointer{
+  cursor: pointer;
+}
+
+.bold500{
+  font-weight: 500;
+}
+
+.tabs .indicator{
+  background-color: #4dd0e1 !important;
+}

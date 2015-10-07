@@ -1,0 +1,26 @@
+<head>
+	<title>SIA</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+</head>
+<body>
+</body>
+
+<template name="mainLayout">
+	<header>
+		{{> yield "navBarYield"}}
+	</header>
+	<main>
+		<div class="container">
+			<div class="row mb50 mt20">
+				<div class="col s12">
+					<h4 class="cyan-text text-darken-2 light truncate">{{titulo}}</h4>
+					<div class="divider">
+					</div>
+				</div>
+			</div>
+			{{#transitioner}}
+			{{> yield}}
+			{{/transitioner}}
+		</div>
+	</main>
+</template>
