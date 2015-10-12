@@ -3,7 +3,8 @@ Template.sideNav.onRendered(function(){
 });
 
 Template.sideNav.events({
-  // "click ul li.bold ul>li>a": function(event, template){
-  //   $('.button-collapse').sideNav('hide');
-  // }
+  "click #mobileNavBar div.collapsible-body li": function(event, template){
+    $("#mobileNavBar div.collapsible-body li").removeClass("active indigo accent-2")
+    $(event.currentTarget).addClass("active indigo accent-2");
+  }
 });

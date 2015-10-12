@@ -105,7 +105,7 @@ i#logoQuarepo.left {
   padding-bottom: 70px !important;
 }
 
-.transitioner {
+.transitioner, .transitioner>div{
   overflow: visible;
 }
 
@@ -238,4 +238,9 @@ h1,h2,h3,h4,h5,h6{
 .collapsible-header{
   margin:0px !important;
   padding:0px 0px 0px 30px !important;
+}
+
+.transitioner>div.modal.bottom-sheet{
+  height: initial;
+  position: fixed;
 }
